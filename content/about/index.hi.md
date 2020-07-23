@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "के बारे में"
 featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 omit_header_text: false
-description: We'd love to hear from you
+description: "के बारे में"
 type: page
 menu: main
 ---

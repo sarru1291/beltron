@@ -1,0 +1,35 @@
+[more]
+other = "अधिक"
+
+[allTitle]
+other = "सब {{.Title }}"
+
+[recentTitle]
+other = "हाल का {{.Title }}"
+
+[readMore]
+other = "अधिक पढ़ें"
+
+[whatsInThis]
+other = "इसमें क्या है {{ .Type }}"
+
+[related]
+other = "सम्बंधित"
+
+[yourName]
+other = "Your Name"
+
+[emailAddress]
+other = "Email Address"
+
+[message]
+other = "Message"
+
+[emailRequiredNote]
+other = "An email address is required."
+
+[send]
+other = "Send"
+
+[taxonomyPageList]
+other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"

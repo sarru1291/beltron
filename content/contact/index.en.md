@@ -1,8 +1,8 @@
 ---
-title: Contact
+title: Contact Us
 featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 omit_header_text: false
-description: We'd love to hear from you
+description: contact us
 type: page
 menu: main
 
