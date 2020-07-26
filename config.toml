@@ -1,39 +1,64 @@
 baseURL = "https://beltron.netlify.app/"
 languageCode = "en-us"
-title = "बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
 theme = "beltron"
-#copyright = "All rights reserved"
 enableEmoji = true
-footnoteReturnLinkContents = "↩"
-
 DefaultContentLanguage = "hi"
-SectionPagesMenu = "main"
 googleAnalytics = ""
 enableRobotsTXT = true
 
-[Languages]
-[Languages.hi]
-title = "बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
-weight = 1
-languageName = "Hindi"
+[languages]
 
-[Languages.en]
-title = "Documentation for Hugo Learn Theme"
-weight = 2
-languageName = "English"
+  [languages.en]
+  title = "Bihar State Unplanned Beltron Data Entry Operator Association"
+  weight = 2
+  contentDir = "content/en"
+  languageName = "English"
 
+  [languages.hi]
+  title = "बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
+  weight = 1
+  contentDir = "content/hi"
+  languageName = "Hindi"
 
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[taxonomies]
-  category = "categories"
+[Taxonomies]
   tag = "tags"
 
-[frontmatter]
-date = ["date", "publishDate", "lastmod"]
-lastmod = [":git", "lastmod", "date", "publishDate"]
-publishDate = ["publishDate", "date"]
-expiryDate = ["expiryDate"]
+[params]
+  favicon = ""
+  site_logo = "images/logo.png"
+  description = "Bihar Beltron DEO 2020 बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
+  author = "Sarvottam Kumar"
+  GitHubUser = "sarru1291"
+  authorlocation = "Noida, India"
+  authorwebsite = "https://www.sarvottamkumar.in"
+  authorbio= "Developer, Linux and open source writer"
+  facebook = "https://www.facebook.com/BeltronDEO2019/"
+  twitter = "https://twitter.com/beltrondeo2020"
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  telegram = "https://t.me/joinchat/QF2Krllj-K6sxc5T7p8HQg"
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 2
+  commentoEnable = true
+  disqusShortname = "ss"
+  showVisitedLinks = false
+  disableSearch = false
+  disableLanguageSwitchingButton = false
+  disableBreadcrumb = false
+  disableNextPrev = false
+  [params.navigation]
+      help = "Help"
+
   

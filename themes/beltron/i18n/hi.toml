@@ -31,5 +31,11 @@ other = "An email address is required."
 [send]
 other = "Send"
 
+[copyright]
+other = "कॉपीराइट"
+
 [taxonomyPageList]
 other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
+
+[title]
+other = "बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
