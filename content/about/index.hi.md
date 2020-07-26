@@ -1,6 +1,6 @@
 ---
 title: "के बारे में"
-featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+featured_image: ''
 omit_header_text: false
 description: "के बारे में"
 type: page

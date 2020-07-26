@@ -1,6 +1,6 @@
 ---
 title: "About"
-featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+featured_image: ''
 omit_header_text: false
 description: About
 type: page

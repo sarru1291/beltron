@@ -1,9 +1,10 @@
 baseURL = "https://beltron.netlify.app/"
 languageCode = "en-us"
 title = "बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
-theme = "ananke"
+theme = "beltron"
 #copyright = "All rights reserved"
-
+enableEmoji = true
+footnoteReturnLinkContents = "↩"
 
 DefaultContentLanguage = "hi"
 SectionPagesMenu = "main"
@@ -26,37 +27,13 @@ languageName = "English"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
-[params]
-  favicon = ""
-  site_logo = "images/logo.png"
-  description = "Bihar Beltron DEO 2020 बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
-  author = "Sarvottam Kumar"
-  authorlocation = "Noida, India"
-  authorwebsite = "https://www.sarvottamkumar.in"
-  authorbio= "Developer, Linux and open source writer"
-  facebook = "https://www.facebook.com/BeltronDEO2019/"
-  twitter = "https://twitter.com/beltrondeo2020"
-  instagram = ""
-  youtube = ""
-  github = ""
-  gitlab = ""
-  linkedin = ""
-  mastodon = ""
-  telegram = "https://t.me/joinchat/QF2Krllj-K6sxc5T7p8HQg"
-  slack = ""
-  stackoverflow = ""
-  rss = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  recent_posts_number = 2
-  commentoEnable = true
-  disqusShortname = "ss"
-  showVisitedLinks = false
-  disableSearch = false
-  disableLanguageSwitchingButton = false
-  disableBreadcrumb = false
-  disableNextPrev = false
-  
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
   

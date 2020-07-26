@@ -1,6 +1,6 @@
 ---
 title: संपर्क करें
-featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+featured_image: ''
 omit_header_text: false
 description: संपर्क करें
 type: page
