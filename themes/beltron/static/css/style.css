@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #5dade2 !important;
+}
+.navbar-light .navbar-brand {
+  color: white !important;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white !important;
+}
+.main-div {
+  color: #5dade2;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background-image: url("/images/bg-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+.main-div img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}

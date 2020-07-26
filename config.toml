@@ -20,17 +20,13 @@ enableRobotsTXT = true
   contentDir = "content/hi"
   languageName = "Hindi"
 
-# For search functionality
-[outputs]
-home = [ "HTML", "RSS", "JSON"]
-
 [Taxonomies]
   tag = "tags"
 
 [params]
   favicon = ""
   site_logo = "images/logo.png"
-  description = "Bihar Beltron DEO 2020 बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
+  description = "Bihar Beltron Data Entry Operator DEO Association बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
   author = "Sarvottam Kumar"
   GitHubUser = "sarru1291"
   authorlocation = "Noida, India"
