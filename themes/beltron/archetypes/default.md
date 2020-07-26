@@ -4,6 +4,6 @@ date: {{ .Date }}
 draft: false
 tags: ["news"]
 catogories: ["news"]
-featured_imagee = ""
-description = ""
+featured_image: ""
+description: ""
 ---

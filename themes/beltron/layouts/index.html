@@ -1,6 +1,13 @@
 {{ define "main" }}
 <div class="main-div">
   <!-- <h1 class="title">{{ .Site.Title }}</h1> -->
-  <img src="images/bg-image.png" alt="bg-image"></img>
+  <!-- <img src="images/bg-image.png" alt="bg-image"></img> -->
+  <div class="homepage-content">
+    <img src="images/beltron.jpeg" alt="bg-image"></img>
+    <p>
+      {{.Content}}
+    </p>
+  </div>
+  
 </div>
 {{ end }}

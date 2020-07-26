@@ -10,10 +10,16 @@
 .navbar-light .navbar-nav .show > .nav-link {
   color: white !important;
 }
+/* .collapse.show {
+    display: block;
+} */
+#content{
+    height: 100vh;
+}
 .main-div {
   color: #5dade2;
   background-color: white;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,8 +30,36 @@
   background-attachment: fixed;
   background-size: cover; */
 }
-.main-div img {
-    height: auto;
+.main-div .homepage-content {
+    /* height: auto;
     max-width: 100%;
-    display: block;
+    display: block; */
+    color:black;
+    text-align: center;
+    padding: 3%;
+    font-size: 2rem;
+}
+.main-div .homepage-content img{
+    max-width: 50%;
+    width: 500px;
+    max-height: auto;
+}
+
+.footer{
+    background-color: #5DADE2 !important;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    margin: 0;
+}
+
+/* Device Size  */
+
+@media only screen and (max-width: 768px) {
+  #content{
+    height: 100vh;
+  }
+  .main-div .homepage-content {
+    font-size: 1.2rem;
+}
 }
