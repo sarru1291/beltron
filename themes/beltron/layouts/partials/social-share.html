@@ -1,13 +1,12 @@
 {{ $title := .Title }}
 {{ $url := printf "%s" .Permalink | absLangURL }}
-{{ $icon_size := "32px" }}
 
 {{ if not .Params.disable_share }}
-<div id="sharing" class="mt3">
-
+<div id="sharing">
+<strong> Share: </strong>
     {{ $facebook_href := printf "https://www.facebook.com/sharer.php?u=%s" $url }}
-    <a href="{{ $facebook_href }}" class="facebook no-underline" aria-label="share on Facebook">
-        fac
+    <a href="{{ $facebook_href }}" class="facebook no-underline" aria-label="share on Facebook" style="padding-right: 5px;">
+        <img src="/images/social/facebook.png" alt="facebook">
     </a>
 
     {{ $twitter_href := printf "https://twitter.com/share?url=%s&text=%s" $url $title }}
@@ -15,12 +14,8 @@
     {{ $twitter_href = printf "%s&via=%s" $twitter_href . }}
     {{ end }}
     <a href="{{ $twitter_href }}" class="twitter no-underline" aria-label="share on Twitter">
-        tw
+       <img src="/images/social/twitter.png" alt="twitter">
     </a>
 
-    {{ $linkedin_href := printf "https://www.linkedin.com/shareArticle?mini=true&url=%s&title=%s" $url $title }}
-    <a href="{{ $linkedin_href }}" class="linkedin no-underline" aria-label="share on LinkedIn">
-        li
-    </a>
 </div>
 {{ end }}

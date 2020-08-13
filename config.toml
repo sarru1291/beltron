@@ -56,4 +56,15 @@ enableRobotsTXT = true
   [params.navigation]
       help = "Help"
 
+[permalinks]
+  posts = "/:06/:1/:2/:title/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Home"
+    url="/"
+    weight = 1
   

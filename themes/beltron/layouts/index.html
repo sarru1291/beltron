@@ -1,7 +1,5 @@
 {{ define "main" }}
 <div class="main-div">
-  <!-- <h1 class="title">{{ .Site.Title }}</h1> -->
-  <!-- <img src="images/bg-image.png" alt="bg-image"></img> -->
   <div class="homepage-content">
     <img src="images/logo.jpeg" alt="bg-image"></img>
     <p>
@@ -12,7 +10,7 @@
     <h2>Recent News</h2>
     
     <div class="recent-posts">
-{{- range ( where site.RegularPages "Section" "news" | first 3 ) }}
+{{- range ( where site.RegularPages "Section" "posts" | first 3 ) }}
 <a href="{{ .RelPermalink }}" style="text-decoration: none;">
     <div class="recent-post">
       {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
@@ -22,14 +20,21 @@
       <div class="recent-post-summary">
       {{ .Title }} <br/>
       {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-      <span style="font-weight: 300; font-size: 1rem;">  {{ .PublishDate.Format $dateFormat }}</span>
+      <span style="font-weight: 300; font-size: 1rem;">  {{ .PublishDate.Format $dateFormat }}</span><br/>
       <span style="font-weight: 300;font-size: 1.2rem;">{{.Summary}}</span>
-      </span>
+      {{ if .Truncated }}
+      <div style="font-weight: bold;font-size: 1rem;">
+       Read More…
+      </div>
+      {{ end }}
     </div>
     
     </div>
   </a>
     {{ end }}
+    <div style="font-weight: bold;font-size: 1.5rem;">
+      <a href="/posts/">More...</a> 
+    </div>
     </div>
   </div>
 

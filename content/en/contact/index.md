@@ -9,4 +9,9 @@ menu: main
 ---
 
 
-This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work.
+Get in touch with us:
+    [![facebook](/images/social/facebook.png)](https://www.facebook.com/BeltronDEO2019/)  &nbsp;
+  [![twitter](/images/social/twitter.png)](https://twitter.com/beltrondeo2020/) &nbsp;
+  [![telegram](/images/social/telegram.png)](https://t.me/joinchat/QF2Krllj-K6sxc5T7p8HQg)
+
+

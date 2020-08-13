@@ -8,8 +8,7 @@
         height="30"
         alt="logo"
         loading="lazy"
-      />&nbsp; DEO Union Bihar</a
-    >
+      />&nbsp; DEO Union Bihar</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -19,8 +18,9 @@
 
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="navbar-nav ml-auto">
-        {{ range .Site.Menus.main }}
-        <li class="nav-item active">
+            {{ $currentPage := . }}
+        {{ range .Site.Menus.main.ByWeight }}
+        <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
           <a class="nav-link" href="{{.URL}}">
             {{ $text := print .Name | safeHTML }} {{ $text }}</a
           >
