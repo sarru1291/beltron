@@ -3,11 +3,35 @@
   <!-- <h1 class="title">{{ .Site.Title }}</h1> -->
   <!-- <img src="images/bg-image.png" alt="bg-image"></img> -->
   <div class="homepage-content">
-    <img src="images/beltron.jpeg" alt="bg-image"></img>
+    <img src="images/logo.jpeg" alt="bg-image"></img>
     <p>
       {{.Content}}
     </p>
+    <button class="join-us-btn"><a href="https://forms.gle/xAY2Bn9WkfdyYjG57" target="_blank">Join Us</a></button>
+    <hr/>
+    <h2>Recent News</h2>
+    
+    <div class="recent-posts">
+{{- range ( where site.RegularPages "Section" "news" | first 3 ) }}
+<a href="{{ .RelPermalink }}" style="text-decoration: none;">
+    <div class="recent-post">
+      {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+
+      <div ><img src="{{ $featured_image }}" alt="image from {{ .Title }}" class="recent-post-img">
+</div>
+      <div class="recent-post-summary">
+      {{ .Title }} <br/>
+      {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+      <span style="font-weight: 300; font-size: 1rem;">  {{ .PublishDate.Format $dateFormat }}</span>
+      <span style="font-weight: 300;font-size: 1.2rem;">{{.Summary}}</span>
+      </span>
+    </div>
+    
+    </div>
+  </a>
+    {{ end }}
+    </div>
   </div>
-  
+
 </div>
 {{ end }}

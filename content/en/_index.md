@@ -1,11 +1,8 @@
 ---
 title: "Home Page"
 featured_image: ""
-description: ""
+description: "DEO Union Bihar"
 ---
-Bihar Beltron Data Entry Operator DEO Association.
-<br/>
+DEO Union Bihar
 
-A very bad news is coming from Beltron office. The joining of Beltron candidate is in danger.
-
-Please join the meeting.
+All candidate of DEO Union are welcomed to join and stand with our association.

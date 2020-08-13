@@ -1,23 +1,24 @@
 .navbar {
-  background-color: #5dade2 !important;
+  background-color: white !important;
+  color: black;
 }
 .navbar-light .navbar-brand {
-  color: white !important;
+  color: black !important;
 }
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: white !important;
+  color: black !important;
 }
 /* .collapse.show {
     display: block;
 } */
-#content{
-    height: 100vh;
-}
+/* #content {
+  height: auto;
+} */
 .main-div {
-  color: #5dade2;
+  color: #fe0101;
   background-color: white;
   /* height: 100vh; */
   width: 100%;
@@ -31,35 +32,97 @@
   background-size: cover; */
 }
 .main-div .homepage-content {
-    /* height: auto;
+  /* height: auto;
     max-width: 100%;
     display: block; */
-    color:black;
-    text-align: center;
-    padding: 3%;
-    font-size: 2rem;
+  color: black;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
 }
-.main-div .homepage-content img{
-    max-width: 50%;
-    width: 500px;
-    max-height: auto;
+.main-div .homepage-content img {
+  max-width: 100%;
+  width: 500px;
+}
+.main-div .homepage-content .join-us-btn {
+  background-color: red;
+  color: white;
+  border: none;
+}
+.main-div .homepage-content .join-us-btn:hover {
+  background-color: white;
+  border: 3px solid red;
+}
+.main-div .homepage-content .join-us-btn a {
+  color: white;
+  text-decoration: none;
+}
+.main-div .homepage-content .join-us-btn a:hover {
+  color: black;
 }
 
-.footer{
-    background-color: #5DADE2 !important;
-    color: white;
-    padding: 1%;
-    text-align: center;
-    margin: 0;
+.main-div .homepage-content .recent-posts {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3%;
+}
+.main-div .homepage-content .recent-posts .recent-post {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.main-div .homepage-content .recent-posts .recent-post div:first-child {
+  width: 30%;
+}
+
+.main-div .homepage-content .recent-posts .recent-post .recent-post-summary {
+  width: 70%;
+  padding-left: 3%;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.main-div .homepage-content .recent-posts .recent-post .summary {
+  overflow: hidden;
+}
+.footer {
+  background-color: #fe0101 !important;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  margin: 0;
 }
 
 /* Device Size  */
 
 @media only screen and (max-width: 768px) {
-  #content{
+  /* #content {
     height: 100vh;
-  }
+  } */
   .main-div .homepage-content {
     font-size: 1.2rem;
-}
+  }
+  .main-div .homepage-content img {
+    max-width: 50%;
+  }
+  .main-div .homepage-content .recent-posts .recent-post {
+    flex-direction: column;
+  }
+  .main-div .homepage-content .recent-posts .recent-post div:first-child {
+    width: 100%;
+    text-align: center;
+  }
+  .main-div .homepage-content .recent-posts .recent-post .recent-post-img {
+    padding-bottom: 1%;
+    max-width: 100%;
+    height: auto;
+  }
+  .main-div .homepage-content .recent-posts .recent-post .recent-post-summary {
+    width: 100%;
+  }
 }
