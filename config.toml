@@ -20,7 +20,7 @@ enableRobotsTXT = true
   weight = 1
 
   [languages.hi]
-  title = "डाटा इंट्री ऑपरेटर संघ बिहार"
+  title = "डीईओ संघ बिहार"
   weight = 1
   contentDir = "content/hi"
   languageName = "हिन्दी"
