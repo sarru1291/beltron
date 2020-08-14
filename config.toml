@@ -9,13 +9,13 @@ enableRobotsTXT = true
 [languages]
 
   [languages.en]
-  title = "Data Entry Operator Union Bihar"
+  title = "DEO Union Bihar"
   weight = 2
   contentDir = "content/en"
   languageName = "English"
 
   [languages.hi]
-  title = "बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
+  title = "डाटा इंट्री ऑपरेटर संघ बिहार"
   weight = 1
   contentDir = "content/hi"
   languageName = "Hindi"

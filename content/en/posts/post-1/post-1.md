@@ -3,7 +3,7 @@ title: "Welcome all members of DEO Union"
 date: 2020-08-13
 tags: ["news"]
 catogories: ["news"]
-featured_image: "/images/test_image.jpg"
+featured_image: "/images/posts/welcome_all_deo_union_bihar.jpg"
 description: "Welcome all members of DEO Union"
 ---
 The main objective of the Bihar State Unplanned Data Entry Operators Association is to fight unitedly against the rights and rights of 7311 data entry operators issued by Beltron. This association has always been voicing the problems faced by all these candidates. 
