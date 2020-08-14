@@ -3,7 +3,7 @@
 
 {{ if not .Params.disable_share }}
 <div id="sharing">
-<strong> Share: </strong>
+<strong> {{i18n "share"}}:</strong>
     {{ $facebook_href := printf "https://www.facebook.com/sharer.php?u=%s" $url }}
     <a href="{{ $facebook_href }}" class="facebook no-underline" aria-label="share on Facebook" style="padding-right: 5px;">
         <img src="/images/social/facebook.png" alt="facebook">

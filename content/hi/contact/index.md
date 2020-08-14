@@ -1,12 +1,15 @@
 ---
-title: संपर्क करें
+title: "संपर्क करें"
 featured_image: ''
 omit_header_text: false
-description: संपर्क करें
+description: "संपर्क करें"
 type: page
 menu: main
 
 ---
 
+हम से संपर्क में रहें:
+    [![facebook](/images/social/facebook.png)](https://www.facebook.com/BeltronDEO2019/)  &nbsp;
+  [![twitter](/images/social/twitter.png)](https://twitter.com/beltrondeo2020/) &nbsp;
+  [![telegram](/images/social/telegram.png)](https://t.me/joinchat/QF2Krllj-K6sxc5T7p8HQg)
 
-यह एक कस्टम शोर्ट का उदाहरण है जिसे आप अपनी सामग्री में डाल सकते हैं। आपको इसे काम करने के लिए शोर्ट में एक फॉर्म एक्शन जोड़ना होगा। सरल, नि: शुल्क फ़ॉर्म सेवा के लिए |

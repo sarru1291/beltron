@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Us"
 featured_image: ''
 omit_header_text: false
 description: About

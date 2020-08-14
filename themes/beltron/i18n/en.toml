@@ -3,3 +3,27 @@ other = "All rights reserved"
 
 [title]
 other = "DEO Union Bihar"
+
+[readMore]
+other = "Read more..."
+
+[switchLanguage]
+other="Change Language"
+
+[followUs]
+other="Follow us"
+
+[recentPosts]
+other="Recent Posts"
+
+[joinUs]
+other="Click here to join"
+
+[more]
+other="More..."
+
+[home]
+other="Home"
+
+[share]
+other="Share it"

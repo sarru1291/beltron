@@ -3,14 +3,14 @@
   <div class="homepage-content">
     <div class="home-front-div">
       
-    <img src="images/logo.jpeg" alt="bg-image"></img>
+    <img src="{{.Site.Params.site_logo}}" alt="bg-image"></img>
     <p>
       {{.Content}}
     </p>
-    <a href="https://forms.gle/xAY2Bn9WkfdyYjG57" target="_blank" class="join-us-btn">Click here to join</a>
+    <a href="https://forms.gle/xAY2Bn9WkfdyYjG57" target="_blank" class="join-us-btn">{{i18n "joinUs"}}</a>
     </div>
     <hr/>
-    <h2>Recent News</h2>
+    <h2>{{i18n "recentPosts"}}</h2>
     
     <div class="recent-posts">
 {{- range ( where site.RegularPages "Section" "posts" | first 3 ) }}
@@ -27,7 +27,7 @@
       <span style="font-weight: 300;font-size: 1.2rem;">{{.Summary}}</span>
       {{ if .Truncated }}
       <div style="font-weight: bold;font-size: 1rem;">
-       Read More…
+       {{i18n "readMore"}}
       </div>
       {{ end }}
     </div>
@@ -36,7 +36,7 @@
   </a>
     {{ end }}
     <div style="font-weight: bold;font-size: 1.5rem;">
-      <a href="/posts/">More...</a> 
+      <a href="/posts/">{{i18n "more"}}</a> 
     </div>
     </div>
   </div>

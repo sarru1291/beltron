@@ -1,41 +1,33 @@
 [more]
-other = "अधिक"
-
-[allTitle]
-other = "सब {{.Title }}"
-
-[recentTitle]
-other = "हाल का {{.Title }}"
+other = "अधिक..."
 
 [readMore]
-other = "अधिक पढ़ें"
-
-[whatsInThis]
-other = "इसमें क्या है {{ .Type }}"
+other = "अधिक पढ़ें..."
 
 [related]
 other = "सम्बंधित"
 
-[yourName]
-other = "Your Name"
-
-[emailAddress]
-other = "Email Address"
-
-[message]
-other = "Message"
-
-[emailRequiredNote]
-other = "An email address is required."
-
-[send]
-other = "Send"
-
 [copyright]
-other = "कॉपीराइट"
+other = "सभी अधिकार सुरक्षित"
 
-[taxonomyPageList]
-other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
 
 [title]
-other = "बिहार राज्य अनियोजित बेल्ट्रान डाटा इंट्री ऑपरेटर संघ"
+other = "डाटा इंट्री ऑपरेटर संघ बिहार"
+
+[switchLanguage]
+other="भाषा बदलो"
+
+[followUs]
+other="हमारा अनुसरण करें"
+
+[recentPosts]
+other="हाल के पोस्ट"
+
+[joinUs]
+other="जुड़ने के लिए यहाँ क्लिक करे"
+
+[home]
+other="मुख्य"
+
+[share]
+other="इसे शेयर करें"

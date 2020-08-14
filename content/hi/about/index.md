@@ -1,8 +1,8 @@
 ---
-title: "के बारे में"
+title: "हमारे बारे में"
 featured_image: ''
 omit_header_text: false
-description: "के बारे में"
+description: "हमारे बारे में"
 type: page
 menu: main
 ---

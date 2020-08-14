@@ -2,9 +2,10 @@ baseURL = "https://beltron.netlify.app/"
 languageCode = "en-us"
 theme = "beltron"
 enableEmoji = true
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "hi"
 googleAnalytics = ""
 enableRobotsTXT = true
+
 
 [languages]
 
@@ -13,19 +14,27 @@ enableRobotsTXT = true
   weight = 2
   contentDir = "content/en"
   languageName = "English"
+  [[languages.en.menu.main]]
+  url    = "/"
+  name   = "Home"
+  weight = 1
 
   [languages.hi]
   title = "डाटा इंट्री ऑपरेटर संघ बिहार"
   weight = 1
   contentDir = "content/hi"
-  languageName = "Hindi"
+  languageName = "हिन्दी"
+  [[languages.hi.menu.main]]
+  url    = "/"
+  name   = "मुख्य"
+  weight = 1
 
 [Taxonomies]
   tag = "tags"
 
 [params]
   favicon = ""
-  site_logo = "images/logo.jpeg"
+  site_logo = "/images/logo.jpeg"
   description = "Data Entry Operator Union Bihar"
   author = "Sarvottam Kumar"
   GitHubUser = "sarru1291"
@@ -59,12 +68,5 @@ enableRobotsTXT = true
 [permalinks]
   posts = "/:06/:1/:2/:title/"
 
-[menu]
 
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    title = "Home"
-    url="/"
-    weight = 1
   
