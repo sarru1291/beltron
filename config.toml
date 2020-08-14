@@ -35,7 +35,6 @@ enableRobotsTXT = true
 [params]
   favicon = ""
   site_logo = "/images/logo.jpeg"
-  description = "Data Entry Operator Union Bihar"
   author = "Sarvottam Kumar"
   GitHubUser = "sarru1291"
   authorlocation = "Noida, India"
